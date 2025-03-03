@@ -1,0 +1,21 @@
+
+.container{
+    display: flex;
+    width: 80%;
+    padding: 2rem;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(146, 155, 233);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 10rem;
+    height: 15rem;
+    margin: 1em;
+    align-items: center;
+}
