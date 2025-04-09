@@ -1,4 +1,11 @@
 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden !important;
+
+  }
+
+
 .container{
     display: flex;
     width: 80%;
@@ -19,3 +26,43 @@
     margin: 1em;
     align-items: center;
 }
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+    flex-grow: 0 !important;
+}
+
+.col img{
+    width: 90% !important;
+    
+}
+
+.card {
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 10px !important;
+    margin: 1rem !important;
+    padding: 0 !important; 
+    position: relative !important;
+    color: white !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 0;
+}
+
+
